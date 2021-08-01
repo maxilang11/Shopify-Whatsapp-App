@@ -1,0 +1,5 @@
+.env
+process.env
+node_modules
+.next
+server/test.js

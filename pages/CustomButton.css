@@ -1,0 +1,25 @@
+:root {
+    --primary: #4628ff;
+    --warning: #ffd028;
+
+}
+
+.custom-btn {
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.custom-btn:hover {
+    transform: translateY(0px);
+}
+
+.custom-btn--primary--solid {
+    background-color: var(--primary);
+    /*
+    background:url() no-repeat;
+    */
+    width: 70px;
+    height: 70px;
+    border: none;
+}
